@@ -9,10 +9,10 @@ metadata:
     app.kubernetes.io/name: devfile-sample-go-basic-pipe-caug
     app.kubernetes.io/part-of: sss
   name: devfile-sample-go-basic-pipe-caug
-  namespace: lpardo-tenant
 spec:
   ports:
-  - port: 8081
+  - name: "8081"
+    port: 8081
     targetPort: 8081
   selector:
     app.kubernetes.io/instance: devfile-sample-go-basic-pipe-caug

@@ -9,9 +9,8 @@ metadata:
     app.kubernetes.io/name: devfile-sample-go-basic-pipe-caug
     app.kubernetes.io/part-of: sss
   name: devfile-sample-go-basic-pipe-caug
-  namespace: lpardo-tenant
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
